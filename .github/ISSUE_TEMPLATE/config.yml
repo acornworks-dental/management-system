@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
   - name: Dental Management System Feature Request
-    url: .github/ISSUE_TEMPLATE/feature-request.yml
+    url: .github/ISSUE_TEMPLATE/feature-request.yaml
     about: Suggest an idea for our Dental Management System
