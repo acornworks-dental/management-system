@@ -1,0 +1,59 @@
+name: "✨ Feature Request"
+about: "Suggest an idea or enhancement for this project."
+title: "[FEAT] - "
+labels:
+  - "enhancement"
+  - "triage"
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🚀 Feature Description
+
+        <!--
+        A clear and concise description of the feature or enhancement you'd like to see.
+        Explain what the feature should do.
+        -->
+
+        ### 🎯 Motivation
+
+        <!--
+        What problem does this feature solve?
+        Why is this feature important to you or other users?
+        -->
+
+        ### 💡 Proposed Solution
+
+        <!--
+        Describe the solution you have in mind.
+        Be as specific as possible, including any user interface changes or new workflows.
+        -->
+
+        ### ✅ Acceptance Criteria
+
+        <!--
+        List the conditions that must be met for this feature to be considered complete.
+        For example:
+
+        - The feature must be accessible from the main navigation.
+        - Users can save their changes.
+        - The new functionality works on both mobile and desktop.
+        -->
+
+        ### 📝 Version (Mandatory)
+
+        <!--
+        **IMPORTANT**: Please specify the version of the software where this feature is requested.
+        This field is required.
+        -->
+
+        - [ ] I have provided the version number.
+        - Version: [e.g., v1.2.0, develop]
+
+        ### 🌐 Additional Context
+
+        <!--
+        Add any other context or screenshots about the feature request here.
+        -->
+
