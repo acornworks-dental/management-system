@@ -72,8 +72,7 @@ body:
     attributes:
       label: "Version"
       description: "Please specify the version of the software where this feature is requested (e.g., v1.2.0, develop)."
-      placeholder: "e.g., v1.2.0"
-      default: "2026"
+      placeholder: "e.g., 2026"
     validations:
       required: true
 
