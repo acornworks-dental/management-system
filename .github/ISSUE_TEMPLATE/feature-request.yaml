@@ -1,5 +1,5 @@
 name: "✨ Feature Request"
-about: "Suggest an idea or enhancement for this project."
+description: "Suggest a new feature or an enhancement for this project."
 title: "[FEAT] - "
 labels:
   - "enhancement"
@@ -11,49 +11,81 @@ body:
       value: |
         ### 🚀 Feature Description
 
-        <!--
-        A clear and concise description of the feature or enhancement you'd like to see.
-        Explain what the feature should do.
-        -->
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: "Feature Description"
+      description: "A clear and concise description of the feature or enhancement you'd like to see. Explain what the feature should do."
+      placeholder: "Describe the feature here..."
+    validations:
+      required: true
 
+  - type: markdown
+    attributes:
+      value: |
         ### 🎯 Motivation
 
-        <!--
-        What problem does this feature solve?
-        Why is this feature important to you or other users?
-        -->
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivation"
+      description: "What problem does this feature solve? Why is it important to you or other users?"
+      placeholder: "Explain the motivation behind this feature..."
+    validations:
+      required: true
 
+  - type: markdown
+    attributes:
+      value: |
         ### 💡 Proposed Solution
 
-        <!--
-        Describe the solution you have in mind.
-        Be as specific as possible, including any user interface changes or new workflows.
-        -->
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: "Proposed Solution"
+      description: "Describe the solution you have in mind. Be as specific as possible, including any user interface changes or new workflows."
+      placeholder: "Outline your proposed solution..."
+    validations:
+      required: false
 
+  - type: markdown
+    attributes:
+      value: |
         ### ✅ Acceptance Criteria
 
-        <!--
-        List the conditions that must be met for this feature to be considered complete.
-        For example:
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: "List the conditions that must be met for this feature to be considered complete. For example: The new functionality works on mobile and desktop."
+      placeholder: "List criteria here..."
+    validations:
+      required: false
 
-        - The feature must be accessible from the main navigation.
-        - Users can save their changes.
-        - The new functionality works on both mobile and desktop.
-        -->
-
+  - type: markdown
+    attributes:
+      value: |
         ### 📝 Version (Mandatory)
 
-        <!--
-        **IMPORTANT**: Please specify the version of the software where this feature is requested.
-        This field is required.
-        -->
+  - type: input
+    id: version
+    attributes:
+      label: "Version"
+      description: "Please specify the version of the software where this feature is requested (e.g., v1.2.0, develop)."
+      placeholder: "e.g., v1.2.0"
+    validations:
+      required: true
 
-        - [ ] I have provided the version number.
-        - Version: [e.g., v1.2.0, develop]
-
+  - type: markdown
+    attributes:
+      value: |
         ### 🌐 Additional Context
 
-        <!--
-        Add any other context or screenshots about the feature request here.
-        -->
-
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: "Additional Context"
+      description: "Add any other context or screenshots about the feature request here."
+      placeholder: "Any extra information you think is helpful."
+    validations:
+      required: false
